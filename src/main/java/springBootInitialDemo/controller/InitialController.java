@@ -19,8 +19,8 @@ public class InitialController {
     }
     
     @GetMapping("")
-    public String helloWorld() {
-    	return "HELLO WORLD";
+    public String helloWorld(@RequestParam(value = "nom", defaultValue = "World") String nom) {
+    	return String.format("Hello %s", nom);
     }
     
     @GetMapping("/test")
