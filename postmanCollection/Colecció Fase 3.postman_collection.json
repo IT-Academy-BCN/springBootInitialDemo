@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "a13b9ebc-c088-4d00-b91b-4b6b310bec6f",
+		"name": "Colecció Fase 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Entorn \"local\" {{IP}}:{{port}}/v1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}/v1",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Entorn \"local\" {{IP}}:{{port}}/v1?nom=Ferran",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}/v1?nom=Ferran",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"v1"
+					],
+					"query": [
+						{
+							"key": "nom",
+							"value": "Ferran"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Entorn \"desenvolupament\" {{IP}}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}",
+					"host": [
+						"{{IP}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Entorn \"preproducció\" {{IP}}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}",
+					"host": [
+						"{{IP}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
