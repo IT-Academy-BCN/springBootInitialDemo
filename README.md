@@ -56,7 +56,32 @@ Spring Annotations help us to signalize different layers of the App:
 - **@Transactional**. Only for Repository, for transactional operations.
 - **@Component**. Stateless wrapper object, or perhaps other helper object.
 
+### Import project to IntelliJ
 
+Follow next steps:
+- Open IntelliJ.
+![](images/IntelliJ_1.png)
+ 
+- Select **Open** option.
+![](images/IntelliJ_2.png)
+  
+- Navigate to the folder containing the project.
+![](images/IntelliJ_3.png)
+
+### Import project to Eclipse
+- Navigate to menu File > Import
+![](images/Eclipse_1.png)
+
+- Select Gradle / Existing Gradle Project and press 'Next'
+![](images/Eclipse_2.png)
+
+- Select Project Root Directory as images below shown, and press 'Finish'
+![](images/Eclipse_3.png)
+
+![](images/Eclipse_4.png)
+
+- Now you can see the workspace with the project ready to work
+![](images/Eclipse_5.png)
 
 
 
