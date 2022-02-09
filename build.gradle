@@ -27,11 +27,11 @@ repositories {
 }
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-web')
-    compile('org.springframework:spring-tx')
-    compile('org.springframework:spring-webmvc')
-    compile('org.springframework.data:spring-data-jpa')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.springframework:spring-tx')
+    implementation('org.springframework:spring-webmvc')
+    implementation('org.springframework.data:spring-data-jpa')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
 springBoot {
